@@ -1,0 +1,3 @@
+D:/Programming Projects/Contact-Management/cmake-build-debug/CMakeFiles/Contact_Management.dir
+D:/Programming Projects/Contact-Management/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Programming Projects/Contact-Management/cmake-build-debug/CMakeFiles/rebuild_cache.dir
