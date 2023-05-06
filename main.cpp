@@ -10,6 +10,8 @@ void addContact();
 void searchContact();
 void help();
 void exit();
+void continueWithError();
+void continueWithoutError();
 
 // Start of Main Function
 
@@ -35,9 +37,29 @@ int main()
         case 4:
             exit();
         default:
-            cout << "\n\n\n\tError! , Please Press Any Key to Continue...";
-            getch();
-            main();
+            continueWithError();
     }
     return 0;
+}
+
+// End of Main Function
+
+// Functions Bodies
+
+void exit() {
+    system("cls");
+    cout << "\n\n\n\t\t\tGood Bye!!";
+    exit(1);
+}
+
+void continueWithError() {
+    cout << "\n\n\n\tError! , Please Press Any Key to Continue...";
+    getch();
+    main();
+}
+
+void continueWithoutError() {
+    cout << "\n\n\n\tPlease Press Any Key to Continue...";
+    getch();
+    main();
 }
